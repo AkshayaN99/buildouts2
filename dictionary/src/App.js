@@ -39,7 +39,7 @@ function App(){
 
       {searchResult && (
         <div>
-          <p><span style={{fontWeight:"bold"}}>Definition:</span></p>
+          <h4>Definition:</h4>
           <p>{searchResult}</p>
         </div>
       )}
