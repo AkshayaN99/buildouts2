@@ -35,11 +35,12 @@ function App(){
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button onClick={handleSearch}>Search</button>
+        <h4>Definition:</h4>
       </div>
 
       {searchResult && (
         <div>
-          <h4>Definition:</h4>
+          
           <p>{searchResult}</p>
         </div>
       )}
