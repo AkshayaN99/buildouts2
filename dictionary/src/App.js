@@ -17,7 +17,7 @@ function App(){
     if (result) {
       setSearchResult(result.meaning);
     } else {
-      setSearchResult('Word not found in the dictionary.');
+      setSearchResult("Word not found in the dictionary.");
     }
   };
 
@@ -39,7 +39,7 @@ function App(){
 
       {searchResult && (
         <div>
-          <h2>Definition:</h2>
+          <p><span style={{fontWeight:"bold"}}>Definition:</span></p>
           <p>{searchResult}</p>
         </div>
       )}
